@@ -5,6 +5,7 @@ Static podcast landing page for "足球脉动 2026", a World Cup commentary epis
 ## Live Site
 
 - Production: https://football-pulse-2026-podcast.vercel.app
+- GitHub: https://github.com/Martin-Mythos/football-pulse-2026-podcast
 - Vercel project: `martin-comet-s-projects/football-pulse-2026-podcast`
 
 ## Project Structure
@@ -16,6 +17,7 @@ Static podcast landing page for "足球脉动 2026", a World Cup commentary epis
 ```
 
 The page is a single static HTML file. Vercel local metadata and environment files are intentionally ignored by Git.
+The Vercel deployment also ignores project documentation and local metadata through `.vercelignore`, so only the static page is published.
 
 ## External Dependencies
 
@@ -28,8 +30,10 @@ The audio is not checked into this repository. Playback depends on the external 
 ## Deploy
 
 ```bash
-vercel deploy --prod --scope martin-comet-s-projects
+git push
 ```
+
+The Vercel project is connected to the `Martin-Mythos/football-pulse-2026-podcast` GitHub repository. Pushing to `main` triggers production deployment.
 
 ## Verification
 
