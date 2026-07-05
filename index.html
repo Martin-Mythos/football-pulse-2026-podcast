@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>足球脉动 2026 | 世界杯深度播客</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        dark: '#0f172a',
+                        surface: '#1e293b',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@700&display=swap');
+        
+        body {
+            background: radial-gradient(circle at top right, #1e3a8a, #020617);
+            min-height: 100vh;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .transcript-line:hover {
+            background: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid #3B82F6;
+        }
+
+        audio::-webkit-media-controls-panel {
+            background-color: #f1f5f9;
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 10px; }
+    </style>
+</head>
+<body class="text-slate-200 antialiased py-8 px-4 md:px-8">
+
+    <main class="max-w-4xl mx-auto space-y-8">
+        <!-- Header -->
+        <header class="text-center space-y-4 mb-12">
+            <h1 class="font-display text-4xl md:text-6xl text-white tracking-tight">
+                足球脉动 <span class="text-blue-500">2026</span>
+            </h1>
+            <p class="text-slate-400 text-lg">深度解析美加墨世界杯，探讨赛场之外的竞技美学</p>
+        </header>
+
+        <!-- Audio Player Section -->
+        <section class="glass rounded-3xl p-6 md:p-8 flex flex-col md:flex-row items-center gap-6 shadow-2xl transition-transform hover:scale-[1.01]">
+            <div class="flex-shrink-0 w-20 h-20 bg-blue-600/20 rounded-full flex items-center justify-center animate-pulse">
+                <svg class="w-10 h-10 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="flex-grow w-full space-y-4">
+                <h2 class="font-bold text-xl text-white">本期话题：竞技精神与底线——法巴之争 vs 奇迹佛得角</h2>
+                <audio controls class="w-full h-12 rounded-lg" src='https://opal.google/board/blobs/5316b3f4-e540-4679-8e1d-eea846cf3175' alt='media_1'></audio>
+            </div>
+        </section>
+
+        <!-- Transcript Section -->
+        <section class="glass rounded-3xl p-6 md:p-10 shadow-xl space-y-8">
+            <h3 class="font-display text-2xl text-white border-b border-white/10 pb-4">完整文字内容</h3>
+            
+            <div class="space-y-6 text-slate-300 leading-relaxed font-light">
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-blue-400">主播A：</strong> 各位听众朋友大家好，欢迎收听本期播客。今天是2026年7月5日，过去的48小时里，美加墨世界杯的赛场上可谓是风云变幻，两场“豪强对阵弱旅”的淘汰赛，不仅牵动了亿万球迷的心，更是在社交媒体上掀起了一场关于“尊重”与“反足球”的讨论风暴。
+                </div>
+                
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-indigo-400">主播B：</strong> 没错。我们要聊的就是阿根廷对阵佛得角，以及昨天刚刚结束的法国对阵巴拉圭。虽然最终卫冕冠军阿根廷和夺冠大热门法国都惊险晋级，但两支被淘汰的球队，在社交媒体上的口碑却是天壤之别。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-blue-400">主播A：</strong> 真的非常有意思。一边是被称为“灰姑娘童话”的佛得角，另一边则是被指责为“球场流氓”的巴拉圭。我们可以先看看Reddit和X（原Twitter）上的风向：佛得角被形容为“虽败犹荣的英雄”，而巴拉圭则被全球球迷贴上了“反足球”的标签。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-indigo-400">主播B：</strong> 咱们先复盘一下昨天那场让不少球迷看得血压升高的法巴之战。法国队虽然1比0赢了，但场面极其难看。巴拉圭全场贡献了近30次犯规，简直是把足球场当成了摔跤场。法国队的切尔基和主帅德尚赛后都坐不住了，直接炮轰对手“无所不用其极”。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-blue-400">主播A：</strong> 最离谱的是那位乌兹别克斯坦籍主裁坦塔舍夫。他在常规时间内竟然一张黄牌都没给巴拉圭！法国《队报》赛后毫不留情地给裁判打了1分的羞辱性低分。在Reddit的足球板块，网友们已经炸锅了，很多人在呼吁调查这背后是否有操纵比赛的嫌疑，称这是世界杯历史上最混乱、最无序的判罚之一。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-indigo-400">主播B：</strong> 相比之下，前一天阿根廷对阵佛得角的比赛，简直是足球纯粹魅力的体现。佛得角——这个打进淘汰赛的史上最小国家，面对世界第一的阿根廷，没有选择摆大巴，而是拿出了硬碰硬的胆量。虽然最后因为一个倒霉的乌龙球3比2惜败，但他们两次落后、两次扳平的韧劲，让全世界都看呆了。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-blue-400">主播A：</strong> 是的。大家在社交媒体上都在转一组数据：佛得角球员的平均年薪才5.3万美元，还没大牌球星一天的工资多，但他们在场上的那种职业态度和进攻欲望，被网友称为史诗级的“大卫挑战歌利亚”。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-indigo-400">主播B：</strong> 而且，这种尊重不仅体现在看台上，更体现在球员的互动中。这里有个细节非常值得玩味：在法国队赛后，姆巴佩故意无视了巴拉圭门将吉尔的握手请求，气得吉尔直接拿球砸向姆巴佩的背部。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-blue-400">主播A：</strong> 很多人觉得姆巴佩傲慢，但在了解了巴拉圭整场比赛那种近乎暴力的小动作后，社交媒体上的舆论反而是一边倒地支持姆巴佩。大家觉得：如果你不尊重足球，你就不配得到对手的尊重。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-indigo-400">主播B：</strong> 反观梅西。阿根廷赢球后，梅西在混合采访区像个职业合影模特一样，耐心地满足了佛得角每一位球员的合影要求。他甚至还特意找到了佛得角那位40岁的老门将沃津哈交换球衣。沃津哈赛后说，这是他一辈子都会珍藏的回忆。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-blue-400">主播A：</strong> 这种对比真的让人唏嘘。同样是面对世界冠军，同样是弱势的一方，佛得角选择了勇敢亮剑，赢得了对手和全世界的脱帽致敬；而巴拉圭却选择了依靠偏袒的裁判和肮脏的小动作去试图“偷取”胜利，结果只换来了满屏的鄙视和无人同情的结局。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-indigo-400">主播B：</strong> 这也许就是世界杯的魅力所在。比分的高低决定了谁能留在赛场，但你踢球的方式，决定了你会如何被历史铭记。佛得角高昂着头离开，他们是精神上的胜者；而巴拉圭，我们只能说，对他们的淘汰，大家一点都不感到惋惜。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-blue-400">主播A：</strong> 好了，这就是本期关于这两场对决的深度剖析。感谢您的收听，让我们继续期待接下来的世界杯对决。下期再见。
+                </div>
+
+                <div class="transcript-line p-4 rounded-xl transition-all duration-300">
+                    <strong class="text-indigo-400">主播B：</strong> 再见。
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
